@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "vcdata": {
+    "name": "vcdata",
+    "connector": "mysql",
+    "host": "127.0.0.1",
+    "port": 8889,
+    "database": "vcdata_2015",
+    "username": "root",
+    "password": "root"
+  }
+}
