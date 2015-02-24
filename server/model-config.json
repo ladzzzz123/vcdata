@@ -29,5 +29,13 @@
   "member": {
     "dataSource": "vcdata",
     "public": true
+  },
+  "firm": {
+    "dataSource": "vcdata",
+    "public": true
+  },
+  "firm-record": {
+    "dataSource": "vcdata",
+    "public": true
   }
 }

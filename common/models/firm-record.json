@@ -1,109 +1,109 @@
 {
-  "name": "FirmRecord",
+  "name": "firm-record",
   "base": "PersistedModel",
   "idInjection": true,
   "properties": {
     "Firm_id": {
-      "type": "string",
-      "required": true
+        "type": "string",
+        "required": true
+      },
+      "Year": {
+        "type": "string",
+        "required": true
+      },
+      "VC_backed": {
+        "type": "string",
+        "required": true
+      },
+      "Lead_VC1": {
+        "type": "string",
+        "required": true
+      },
+      "Lead_VC2": {
+        "type": "string",
+        "required": true
+      },
+      "Lead_VC3": {
+        "type": "string",
+        "required": true
+      },
+      "Lead_VC4": {
+        "type": "string",
+        "required": true
+      },
+      "Lead_VC5": {
+        "type": "string",
+        "required": true
+      },
+      "Internationalization": {
+        "type": "string",
+        "required": true
+      },
+      "ROA": {
+        "type": "string",
+        "required": true
+      },
+      "ROA_MidNum": {
+        "type": "string",
+        "required": true
+      },
+      "Total_asset": {
+        "type": "string",
+        "required": true
+      },
+      "Fixed_asset": {
+        "type": "string",
+        "required": true
+      },
+      "EPS": {
+        "type": "string",
+        "required": true
+      },
+      "Year_market_cap": {
+        "type": "string",
+        "required": true
+      },
+      "Stock_price": {
+        "type": "string",
+        "required": true
+      },
+      "stock_book": {
+        "type": "string",
+        "required": true
+      },
+      "MB_value": {
+        "type": "string",
+        "required": true
+      },
+      "mbvalue_mid": {
+        "type": "string",
+        "required": true
+      },
+      "mbvalue_adjust": {
+        "type": "string",
+        "required": true
+      },
+      "Underwriter_reputation": {
+        "type": "string",
+        "required": true
+      },
+      "VCIPO_marketsahres": {
+        "type": "string",
+        "required": true
+      },
+      "VCIPO_marketshares_cum": {
+        "type": "string",
+        "required": true
+      },
+      "VC_manage_capital": {
+        "type": "string",
+        "required": true
+      },
+      "VCIPO_frequency": {
+        "type": "string",
+        "required": true
+      }
     },
-    "Year": {
-      "type": "string",
-      "required": true
-    },
-    "VC_backed": {
-      "type": "string",
-      "required": true
-    },
-    "Lead_VC1": {
-      "type": "string",
-      "required": true
-    },
-    "Lead_VC2": {
-      "type": "string",
-      "required": true
-    },
-    "Lead_VC3": {
-      "type": "string",
-      "required": true
-    },
-    "Lead_VC4": {
-      "type": "string",
-      "required": true
-    },
-    "Lead_VC5": {
-      "type": "string",
-      "required": true
-    },
-    "Internationalization": {
-      "type": "string",
-      "required": true
-    },
-    "ROA": {
-      "type": "string",
-      "required": true
-    },
-    "ROA_MidNum": {
-      "type": "string",
-      "required": true
-    },
-    "Total_asset": {
-      "type": "string",
-      "required": true
-    },
-    "Fixed_asset": {
-      "type": "string",
-      "required": true
-    },
-    "EPS": {
-      "type": "string",
-      "required": true
-    },
-    "Year_market_cap": {
-      "type": "string",
-      "required": true
-    },
-    "Stock_price": {
-      "type": "string",
-      "required": true
-    },
-    "stock_book": {
-      "type": "string",
-      "required": true
-    },
-    "MB_value": {
-      "type": "string",
-      "required": true
-    },
-    "mbvalue_mid": {
-      "type": "string",
-      "required": true
-    },
-    "mbvalue_adjust": {
-      "type": "string",
-      "required": true
-    },
-    "Underwriter_reputation": {
-      "type": "string",
-      "required": true
-    },
-    "VCIPO_marketsahres": {
-      "type": "string",
-      "required": true
-    },
-    "VCIPO_marketshares_cum": {
-      "type": "string",
-      "required": true
-    },
-    "VC_manage_capital": {
-      "type": "string",
-      "required": true
-    },
-    "VCIPO_frequency": {
-      "type": "string",
-      "required": true
-    }
-  },
   "validations": [],
   "relations": {},
   "acls": [],
