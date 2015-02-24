@@ -1,0 +1,88 @@
+{
+  "name": "Firm",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "Firm_id": {
+      "type": "string",
+      "required": true
+    },
+    "Unified_number": {
+      "type": "string",
+      "required": true
+    },
+    "Firm_name1": {
+      "type": "string"
+    },
+    "Firm_name2": {
+      "type": "string"
+    },
+    "Firm_name3": {
+      "type": "string"
+    },
+    "Firm_found_date": {
+      "type": "string"
+    },
+    "Industry_id": {
+      "type": "string"
+    },
+    "Industry_name": {
+      "type": "string"
+    },
+    "IPO_date": {
+      "type": "string"
+    },
+    "Underwrite_share": {
+      "type": "string"
+    },
+    "Underwrite_price": {
+      "type": "string"
+    },
+    "Underwrite_amount": {
+      "type": "string"
+    },
+    "Main_underwriter": {
+      "type": "string"
+    },
+    "Ass_underwriter1": {
+      "type": "string"
+    },
+    "Ass_underwriter2": {
+      "type": "string"
+    },
+    "Ass_underwriter3": {
+      "type": "string"
+    },
+    "Ass_underwriter4": {
+      "type": "string"
+    },
+    "Ass_underwriter5": {
+      "type": "string"
+    },
+    "IPOdate_openprice": {
+      "type": "string"
+    },
+    "IPOdate_minprice": {
+      "type": "string"
+    },
+    "IPOdate_maxprice": {
+      "type": "string"
+    },
+    "IPO_closedprice": {
+      "type": "string"
+    },
+    "IPOdate_amount": {
+      "type": "string"
+    },
+    "IPOdate_marketcap": {
+      "type": "string"
+    },
+    "association": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
